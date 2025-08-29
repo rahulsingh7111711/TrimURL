@@ -1,0 +1,11 @@
+{% extends "base.html" %} {% block title %}Short URL{% endblock %} {% block
+content %}
+<!-- <h1>Short URL</h1> -->
+{% if short_code and resolved %}
+<p>Your short URL is: <a href="/s/{{ short_code }}">/s/{{ short_code }}</a></p>
+<p>It redirects to: {{ resolved }}</p>
+{% else %}
+<p>URL not found or invalid.</p>
+{% endif %}
+<a href="/">Create another</a>
+{% endblock %}
