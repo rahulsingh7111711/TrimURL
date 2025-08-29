@@ -1,4 +1,4 @@
-# URL Shortener (Mini System Design Project)
+# URL Shortener
 
 A lightweight URL Shortener built as part of a hands-on system design learning journey.
 
@@ -14,14 +14,11 @@ A lightweight URL Shortener built as part of a hands-on system design learning j
 ### Prerequisites
 
 - Python 3.x
-- Git (optional but recommended)
+- Git 
 
 ### Run It
 
 ```bash
-# Clone the repository
-git clone https://github.com/ravi-s/url-shortener.git
-cd url-shortener
 
 # Run the script
 python shortener.py
@@ -40,7 +37,3 @@ REST API using Flask or FastAPI.
 Short URL expiration and analytics.
 Multi-threading and concurrency handling.
 
-👨‍💻 Author & Learning Journey
-
-This project is part of a personal hands-on coaching program with system design instructor @ChatGPT.
-Follow along to see how this evolves from a CLI tool to a cloud-deployable microservice.
